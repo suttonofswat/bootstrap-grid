@@ -1,1 +1,84 @@
 @import url(../node_modules/bootstrap/dist/css/bootstrap.css);
+body {
+  font-family: 'Open Sans'; }
+
+h4 {
+  color: #818284; }
+
+p {
+  color: #BDBEBF; }
+
+main {
+  padding: 0 2.5em; }
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  margin-bottom: 0; }
+  .navbar-default .navbar-brand {
+    color: #2D90CE;
+    font-size: 1.5em;
+    padding: 15px 10px; }
+    .navbar-default .navbar-brand span {
+      color: #56646E; }
+
+.navbar-toggle.collapsed {
+  background-color: #298FE3;
+  border-color: #298FE3;
+  padding: 6px 5px; }
+  .navbar-toggle.collapsed .icon-bar {
+    background-color: #fff;
+    width: 25px;
+    height: 4px;
+    border-radius: 2px; }
+
+.jumbotron {
+  background-image: url("/images/hero-dark.jpg");
+  background-size: cover;
+  padding: 5em; }
+  .jumbotron .container {
+    padding: 2.5em 4em; }
+  .jumbotron h1, .jumbotron h3 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9); }
+  .jumbotron h1 {
+    font-size: 4em; }
+  .jumbotron h3 {
+    font-size: 1.5em; }
+
+hr {
+  border: 1px solid #ccc;
+  margin-bottom: 1em; }
+
+.well {
+  background-color: #EFF0F1; }
+
+.thumbnail {
+  border: none; }
+  .thumbnail .caption {
+    color: #999DA0; }
+
+.grlBike {
+  padding: 1em; }
+
+footer {
+  background-color: #3A414B; }
+  footer a {
+    text-decoration: underline;
+    color: #BDBEBF; }
+
+.contactUsPad {
+  padding-top: 1em; }
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 11em 0; }
+    .jumbotron h1 {
+      float: left;
+      font-size: 2.5em;
+      padding: 0 2em;
+      margin: 0 auto; }
+    .jumbotron h3 {
+      float: right;
+      font-size: .75em; } }

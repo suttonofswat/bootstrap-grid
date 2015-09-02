@@ -1,1 +1,131 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
+$toggleColor: #298FE3;
+$wellMargin: 0 1em;
+
+body{
+	font-family: 'Open Sans';
+}
+h4{
+	color: #818284;
+}
+p{
+	color: #BDBEBF;
+}
+
+
+main{
+	padding:0 2.5em;
+}
+.navbar-default{
+	background-color:#fff;
+	border-color:#fff;
+	margin-bottom:0;
+		.navbar-brand{
+			color:#2D90CE;
+			font-size:1.5em;
+			padding: 15px 10px;
+				span{
+					color: #56646E;
+				}
+		}
+		
+}
+
+.navbar-toggle.collapsed{
+		background-color:$toggleColor;
+		border-color:$toggleColor;
+		padding: 6px 5px;
+
+		.icon-bar{
+			background-color:#fff;
+			width:25px;
+			height:4px;
+			border-radius:2px;
+
+		}
+	}
+.jumbotron{
+	background-image:url("/images/hero-dark.jpg");
+	background-size:cover;
+	padding:5em;
+
+		.container{
+			padding: 2.5em 4em;
+		}
+		h1,h3{
+			color:white;
+			text-align:center;
+			text-shadow: 1px 1px 2px rgba(0,0,0,.9); 
+		}
+		h1{
+			font-size: 4em;
+		}
+		h3{
+			font-size:1.5em;
+		}
+
+}
+// .caption{
+// 	padding: 0 3em;
+// 	h4{
+// 		letter-spacing: .06em;
+// 		font-size: 1.5em;
+// 	}
+// 	p{
+		
+// 		font-size: 0.9em;
+// 		padding-bottom: 1em;
+// 	}
+// 	.btn-primary{
+// 		background-color:#2985CD;
+// 		padding: .5em 6em;
+// 		font-size: .75em;
+// 	}
+
+
+hr{
+	border: 1px solid #ccc;
+	margin-bottom: 1em;
+}
+.well{
+	background-color:#EFF0F1;
+	// margin: $wellMargin;
+
+}
+.thumbnail{
+	border: none;
+	.caption{
+		color: #999DA0;
+	}
+}
+
+.grlBike{
+	padding:1em;
+}
+footer{
+	background-color:#3A414B;
+	a{
+		text-decoration: underline;
+		color: #BDBEBF;
+		
+	}
+}
+.contactUsPad{
+	padding-top:1em;
+}
+
+@media screen and(min-width:768px){
+	.jumbotron{
+		padding: 11em 0;
+		h1{
+			float:left;
+			font-size: 2.5em;
+			padding: 0 2em;
+			margin: 0 auto;
+		}
+		h3{
+			float:right;
+			font-size: .75em;
+		}
+	}
+}
